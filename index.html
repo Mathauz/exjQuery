@@ -11,14 +11,13 @@
         <header>
             <h1>Lista de tarefas</h1>
         </header>
-        <form>
-                <input type="text" id="tarefa" placeholder="Nome da tarefa">
-                <button>Cadastrar</button>
+        <form id="form">
+            <input type="text" id="tarefa" placeholder="Nome da tarefa" required>
+            <button type="submit">Cadastrar</button>
         </form>
-        <ul>
-            <li>Apagar luz</li>
-        </ul>
+        <ul id="res">Adicione uma tarefa acima</ul>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
